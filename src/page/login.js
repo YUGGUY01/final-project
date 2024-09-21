@@ -21,7 +21,7 @@ function Login() {
   };
 
   return (
-    <section>
+    <section className="loginall">
       <div className="back">
       <h1 className="signup">LOG IN</h1>
         <div className="front">
@@ -47,7 +47,7 @@ function Login() {
             />
             </div>
             <a className="forgot" href="https://example.com" target="_blank" rel="noopener noreferrer">forgot password?</a>
-            <a className="donthave">you have an Account? Sign up</a>
+            <a className="donthave" href="https://example.com" target="_blank" rel="noopener noreferrer">you have an Account? Sign up</a>
             </div>
             </section>
             <button className="click" onclick="handleClick()" >SIGN UP</button>
