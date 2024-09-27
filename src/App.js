@@ -7,7 +7,7 @@ import Profileuseredit from './page/profileuseredit';
 import Profileuser from './page/profileuser';
 import Profilevolunteeredit from './page/profilevolunteeredit';
 import Profilevolunteer from './page/profilevolunteer';
-import Adminone from './page/adminone';
+import Admin from './page/admin';
 import Admintwo from './page/admintwo';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path="/Profileuser" element={<Profileuser />} />
         <Route path="/Profilevolunteeredit" element={<Profilevolunteeredit />} />
         <Route path="/Profilevolunteer" element={<Profilevolunteer />} />
-        <Route path="/adminone" element={<Adminone />} />
+        <Route path="/admin" element={<Admin />} />
         <Route path="/admintwo" element={<Admintwo />} />
       </Routes>
     </Router>
